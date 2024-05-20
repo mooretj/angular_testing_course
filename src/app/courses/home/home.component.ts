@@ -1,9 +1,9 @@
 import {Component, OnInit} from '@angular/core';
-import {Course} from "../model/course";
 import {Observable} from "rxjs";
 import {CoursesService} from "../services/courses.service";
 import {map} from "rxjs/operators";
 import {sortCoursesBySeqNo} from './sort-course-by-seq';
+import {Course} from "../model/course";
 
 @Component({
     selector: 'home',

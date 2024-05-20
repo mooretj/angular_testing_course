@@ -67,7 +67,7 @@ import {courseResolver} from './services/course.resolver';
         CourseDialogComponent
     ],
     providers: [
-        CoursesService
+        CoursesService,
     ]
 })export class CoursesModule {
 
